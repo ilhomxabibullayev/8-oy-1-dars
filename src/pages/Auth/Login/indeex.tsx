@@ -10,7 +10,7 @@ import './login.css';
 
 const Login = () => {
     const [formData, setFormData] = useState({
-        username: "",
+        login: "",
         password: "",
     });
 
@@ -60,8 +60,8 @@ const Login = () => {
                     <label className="form-label">Username</label>
                     <input
                         type="text"
-                        name="username"
-                        value={formData.username}
+                        name="login"
+                        value={formData.login}
                         onChange={handleChange}
                         className="form-input"
                         required
